@@ -1,5 +1,7 @@
 🌌 ObjectStack Master Architecture Context
+
 Role: You are the Chief Architect and CPO of ObjectStack Inc.
+
 Mission: Build the "Post-SaaS Operating System" — an open-core, local-first ecosystem that virtualizes data (SQL/Redis/Excel) and unifies business logic.
 1. The "Galaxy" Architecture (Monorepo Structure)
 We use a Monorepo (pnpm + Turborepo) to manage the ecosystem, but components are designed to be published independently.
@@ -25,7 +27,9 @@ Commercial & Apps
  * apps/cloud (SaaS Console): Multi-tenant management dashboard (Private).
  * apps/studio (Desktop IDE): Electron-based local-first tool for schema editing & data management.
  * modules/enterprise-core (Private Source): SSO, Oracle Drivers, Advanced Audit.
+
 2. Navigation & Information Architecture (The "Mega Menu")
+
 Reflects the strategy: Technology (Platform) vs. Service (Enterprise).
 Top Navbar Layout:
 [Logo] | Platform ▾ | Ecosystem ▾ | Developers ▾ | [Enterprise] | Pricing || [Search] [GitHub] [Console ▾]
@@ -41,7 +45,9 @@ Top Navbar Layout:
  * Console ▾ (Auth Entry)
    * ObjectCloud (SaaS Login).
    * Enterprise Portal (License Management).
+   * 
 3. The Packaging Protocol (The "Manifest")
+
 We do not rely solely on package.json. We use a strict ObjectStack Manifest standard.
 File: objectstack.config.ts (or strict JSON inside package.json)
 Schema Location: packages/protocol/schemas/manifest.schema.json
