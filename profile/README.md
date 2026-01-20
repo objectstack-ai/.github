@@ -1,70 +1,54 @@
 <div align="center">
- 
-  # ObjectStack AI
- 
-  **The Standard Protocol for AI Software Generation.**
+  <img src="https://objectstack.ai/logo-banner.png" alt="ObjectStack" width="100%" />
+  <h1>The Post-SaaS Operating System</h1>
+  <p>
+    <strong>Virtualize Data. Unify Logic. Standardize UI.</strong><br>
+    ObjectStack is a composable ecosystem designed to decouple your business assets from implementation details.
+  </p>
 
-  We are building the "Operating System" that allows Artificial Intelligence to generate, deploy, and manage enterprise-grade applications without hallucinations.
-
-  [**Website**](https://www.objectstack.ai) • [**Documentation**](https://docs.objectstack.ai) • [**Discord**](https://discord.gg/objectstack)
-
+  <p>
+    <a href="https://objectstack.ai"><b>Website</b></a> •
+    <a href="https://objectstack.ai/docs"><b>Documentation</b></a> •
+    <a href="https://objectstack.ai/market"><b>Marketplace</b></a> •
+    <a href="https://discord.gg/objectstack"><b>Join Discord</b></a>
+  </p>
 </div>
 
----
+<br />
 
-## 🤖 The Mission: AI-Native Software
+## ⚡️ The Stack (The Trinity)
 
-We believe that **Metadata is the new Code**. 
+ObjectStack is built on a modular "Trinity" architecture. Use them together for the full OS experience, or independently to supercharge your stack.
 
-Current LLMs struggle with generating large, complex codebases because imperative code is brittle and context-heavy. **ObjectStack AI** solves this by providing a structured, declarative protocol stack. Instead of writing thousands of lines of code, AI only needs to generate concise **JSON/YAML metadata**.
-
-Our stack handles the rest—security, database management, API generation, and UI rendering.
-
-## 🏛️ The Stack (The Trinity)
-
-Our ecosystem consists of three decoupled layers working in perfect harmony:
-
-### 1. [ObjectQL](https://github.com/objectstack-ai/objectql) (The Protocol)
-> **"The Language of AI"**
-> A universal, metadata-driven ORM and data definition standard.
-* **For AI:** Structured constraints ensure 100% executable output (No Hallucinations).
-* **For Humans:** Simple YAML syntax to define data models and validation rules.
-* **Universal:** Deploys to PostgreSQL, MongoDB, or Edge/Serverless.
-
-### 2. [ObjectOS](https://github.com/objectstack-ai/objectos) (The Engine)
-> **"The Brain"**
-> An enterprise-grade low-code runtime kernel built on NestJS.
-* **Instant Backend:** Automatically turns ObjectQL schemas into secure REST/GraphQL APIs.
-* **Security Core:** Built-in RBAC, Record-Level Security (RLS), and Audit Logs.
-* **Automation:** Workflow engine and trigger system for business logic.
-
-### 3. [Object UI](https://github.com/objectstack-ai/objectui) (The View)
-> **"The Face"**
-> A headless, schema-driven rendering engine built with React & Tailwind CSS.
-* **Tailwind Native:** 100% styled with utility classes. Beautiful and customizable.
-* **JSON to UI:** Instantly renders complex Dashboards, Grids, and Forms from metadata.
-* **Framework Agnostic:** Works as a library within Next.js, Vite, or Remix apps.
-
----
-
-## 🚀 Why Developers Choose ObjectStack?
-
-| Feature | Traditional Coding | ObjectStack AI |
+| **The Engine** ⚙️ | **The Platform** 🧠 | **The Components** 🎨 |
 | :--- | :--- | :--- |
-| **Development Speed** | Weeks | Minutes (via AI Generation) |
-| **Architecture** | Monolithic / Complex Microservices | **Serverless / Metadata-Driven** |
-| **AI Compatibility** | Low (Context window overflow) | **High (Token efficient YAML)** |
-| **Maintenance** | Code refactoring hell | **Schema updates** |
-| **Security** | Manual implementation | **Kernel level enforcement** |
+| **[ObjectQL](https://github.com/objectstack-ai/objectql)** | **[ObjectOS](https://github.com/objectstack-ai/objectos)** | **[ObjectUI](https://github.com/objectstack-ai/objectui)** |
+| **The Metadata-Driven Data Engine.** | **The Low-Code Kernel.** | **The Enterprise Interface Kit.** |
+| Abstracts storage (SQL, NoSQL, Excel) and automates permissions. | Identity, Workflow, and Organization management out of the box. | Server-driven UI components optimized for complex enterprise data. |
+| *Protocol-First* | *Enterprise-Ready* | *High-Performance* |
+
+<br />
+
+## 🚀 Key Philosophies
+
+- **Asset Longevity:** Frameworks change; Data Protocols last decades. We focus on the Schema.
+- **Polyglot Persistence:** Connect to **Postgres**, **Redis**, **MongoDB**, or even **Excel** files using a single API.
+- **Local-First & Self-Hosted:** You own your data. Deploy anywhere—from Edge to Air-gapped servers.
+- **Infinite Extensibility:** Everything is a **Driver** or a **Plugin**. No vendor lock-in.
+
+## 📦 Ecosystem
+
+Explore the [ObjectStack Marketplace](https://objectstack.ai/market) to find drivers and apps.
+
+- **Universal Drivers:** Connectors for Legacy DBs, SaaS APIs, and File Systems.
+- **Enterprise Apps:** Ready-to-use CRM, ERP, and Project Management templates.
+
+## 🤝 Contributing
+
+We are building the standard for the next generation of business software.
+Read our [Contribution Guidelines](https://objectstack.ai/docs/contributing) and check out the [Roadmap](https://github.com/orgs/objectstack-ai/projects).
 
 ---
-
-## 🤝 Join the Revolution
-
-We are an open-source first organization. Whether you are building a CRM, an ERP, or an internal tool, ObjectStack provides the solid foundation you need.
-
-* 🌟 **Star** our repositories to support the movement.
-* 🐛 **Report** issues to help us improve.
-* 🛠️ **Contribute** to the core engine.
-
-> *Built with ❤️ by the ObjectStack Team.*
+<div align="center">
+  <sub>Built with ❤️ by the ObjectStack Team. Licensed under MIT.</sub>
+</div>
