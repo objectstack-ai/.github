@@ -50,5 +50,5 @@ Read our [Contribution Guidelines](https://objectstack.ai/docs/contributing) and
 
 ---
 <div align="center">
-  <sub>Built with ❤️ by the ObjectStack Team. Licensed under MIT.</sub>
+  <sub>Built with ❤️ by the ObjectStack Team.</sub>
 </div>
