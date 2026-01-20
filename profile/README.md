@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://objectstack.ai/logo.png" alt="ObjectStack" height="60px" />
+  <img src="https://objectstack.ai/logo.svg" alt="ObjectStack" height="60px" />
   <h1>The Post-SaaS Operating System</h1>
   <p>
     <strong>Virtualize Data. Unify Logic. Standardize UI.</strong><br>
