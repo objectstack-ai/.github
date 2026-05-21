@@ -8,7 +8,6 @@
 
   <p>
     <a href="https://objectstack.ai"><b>Website</b></a> •
-    <a href="https://docs.objectstack.ai"><b>Documentation</b></a> •
-    <a href="https://discord.gg/objectstack"><b>Join Discord</b></a>
+    <a href="https://docs.objectstack.ai"><b>Documentation</b></a>
   </p>
 </div>
